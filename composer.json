@@ -1,5 +1,5 @@
 {
-    "name": "mediatis/fomr-logic",
+    "name": "mediatis/form-logic",
     "description": "Helper functions for Sysext:Forms",
     "license": "GPL-2.0+",
     "type": "typo3-cms-extension",
