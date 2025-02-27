@@ -1,0 +1,17 @@
+<html data-namespace-typo3-fluid="true" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <f:asset.script
+    identifier="formlogic-formdependencies"
+    src="EXT:form_logic/Resources/Public/JavaScript/Frontend/form-dependencies.js"
+    defer="true"/>
+  <script>
+    window.formLogic = window.formLogic || {};
+    window.formLogic.dependencyScript = window.formLogic.dependencyScript || {};
+    window.formLogic.dependencyScript.formScripts = window.formLogic.dependencyScript.formScripts || {};
+    window.formLogic.dependencyScript.formScripts['{form.formDefinition.identifier}'] = function (form) {
+      <f:render partial="DependencyScriptAliases" arguments="{form:form}" />
+      <f:if condition="{form.formDefinition.renderingOptions.dependencyScript}">
+      <f:format.raw>{form.formDefinition.renderingOptions.dependencyScript}</f:format.raw>
+      </f:if>
+    }
+  </script>
+</html>
