@@ -5,9 +5,9 @@
  * (Don't change existing actions, rather change their corresponding helper function from _default-helper.js)
  *
  * window.formLogic = window.formLogic || {};
- * window.formLogic.dependencyScript = window.formLogic.dependencyScript || {};
- * window.formLogic.dependencyScript.actions = window.formLogic.dependencyScript.actions || {};
- * window.formLogic.dependencyScript.actions.myNewAction = function(fieldId, [...additionalArguments], skipAnimation) {
+ * window.formLogic = window.formLogic || {};
+ * window.formLogic.actions = window.formLogic.actions || {};
+ * window.formLogic.actions.myNewAction = function(fieldId, [...additionalArguments], skipAnimation) {
  *     // implement your new action
  * };
  *

@@ -7,30 +7,30 @@ import { argsToArray, closest, find } from "./_functions";
  * ... adjust or add helper functions externally
  *
  * window.formLogic = window.formLogic || {};
- * window.formLogic.dependencyScript = window.formLogic.dependencyScript || {};
- * window.formLogic.dependencyScript.helper = window.formLogic.dependencyScript.helper || {};
+ * window.formLogic = window.formLogic || {};
+ * window.formLogic.helper = window.formLogic.helper || {};
  *
- * window.formLogic.dependencyScript.helper.fetchFieldWrapper = function(fields) {
+ * window.formLogic.helper.fetchFieldWrapper = function(fields) {
  *     // update core implementation
  * };
  *
- * window.formLogic.dependencyScript.helper.myNewHelperFunction = function(...) {
+ * window.formLogic.helper.myNewHelperFunction = function(...) {
  *     // implement your new helper function
  * };
  *
  * ... add action negative affixes
  *
- * window.formLogic.dependencyScript.helper.negatives = window.formLogic.dependencyScript.helper.negatives || {};
+ * window.formLogic.helper.negatives = window.formLogic.helper.negatives || {};
  *
- * window.formLogic.dependencyScript.helper.negatives.prefixes = window.formLogic.dependencyScript.helper.negatives.prefixes || {};
- * window.formLogic.dependencyScript.helper.negatives.prefixes['foo'] = 'bar';
+ * window.formLogic.helper.negatives.prefixes = window.formLogic.helper.negatives.prefixes || {};
+ * window.formLogic.helper.negatives.prefixes['foo'] = 'bar';
  *
- * window.formLogic.dependencyScript.helper.negatives.postfixes = window.formLogic.dependencyScript.helper.negatives.postfixes || {};
- * window.formLogic.dependencyScript.helper.negatives.postfixes['foo'] = 'bar';
+ * window.formLogic.helper.negatives.postfixes = window.formLogic.helper.negatives.postfixes || {};
+ * window.formLogic.helper.negatives.postfixes['foo'] = 'bar';
  *
  * ... change class names used by the core
- * window.formLogic.dependencyScript.helper.classNames = window.formLogic.dependencyScript.helper.negatives.classNames || {};
- * window.formLogic.dependencyScript.helper.classNames.requiredIndicator = 'is-required';
+ * window.formLogic.helper.classNames = window.formLogic.helper.negatives.classNames || {};
+ * window.formLogic.helper.classNames.requiredIndicator = 'is-required';
  *
  */
 

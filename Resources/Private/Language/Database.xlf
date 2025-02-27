@@ -5,7 +5,7 @@
     <header/>
     <body>
       <trans-unit id="formEditor.elements.Form.editor.dependencyScript.label" xml:space="preserve">
-        <source>Dependency Script</source>
+        <source>Form Logic</source>
       </trans-unit>
     </body>
   </file>

@@ -5,14 +5,14 @@
  * ... adjust or add evaluations externally
  *
  * window.formLogic = window.formLogic || {};
- * window.formLogic.dependencyScript = window.formLogic.dependencyScript || {};
- * window.formLogic.dependencyScript.evaluations = window.formLogic.dependencyScript.evaluations || {};
+ * window.formLogic = window.formLogic || {};
+ * window.formLogic.evaluations = window.formLogic.evaluations || {};
  *
- * window.formLogic.dependencyScript.evaluations['empty'] = function(condition, field, value) {
+ * window.formLogic.evaluations['empty'] = function(condition, field, value) {
  *     // update the core implementation
  * }
  *
- * window.formLogic.dependencyScript.evaluations['my-new-evaluation'] = function(condition, field, value) {
+ * window.formLogic.evaluations['my-new-evaluation'] = function(condition, field, value) {
  *     // implement your new evaluation
  * };
  *
@@ -20,11 +20,11 @@
  *
  * Examples:
  *
- * window.formLogic.dependencyScript.evaluations['my-new-evaluation'] = function(condition, field, value) { ... }
+ * window.formLogic.evaluations['my-new-evaluation'] = function(condition, field, value) { ... }
  * form.eval('text-1', 'my-new-evaluation')
  * form.if('my-new-evaluation', 'text-1').then(...)
  *
- * window.formLogic.dependencyScript.evaluations['something.*'] = function(condition, field, value) { ... }
+ * window.formLogic.evaluations['something.*'] = function(condition, field, value) { ... }
  * form.eval('somethingBad', 'text-1')
  * form.if('somethingBad', 'text-1').then(...)
  */
