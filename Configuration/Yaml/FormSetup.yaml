@@ -1,0 +1,30 @@
+TYPO3:
+  CMS:
+    Form:
+      formManager:
+        translationFiles:
+          10: 'EXT:form/Resources/Private/Language/Database.xlf'
+          20: 'EXT:form_logic/Resources/Private/Language/Database.xlf'
+      prototypes:
+        standard:
+          formEngine:
+            translationFiles:
+              10: 'EXT:form/Resources/Private/Language/Database.xlf'
+              20: 'EXT:form_logic/Resources/Private/Language/Database.xlf'
+          renderingOptions:
+            templateRootPaths:
+              100: 'EXT:form_logic/Resources/Private/Frontend/Templates/'
+            partialRootPaths:
+              100: 'EXT:form_logic/Resources/Private/Frontend/Partials/'
+            layoutRootPaths:
+              100: 'EXT:form_logic/Resources/Private/Frontend/Layouts/'
+          formEditor:
+            translationFiles:
+              10: 'EXT:form/Resources/Private/Language/Database.xlf'
+              20: 'EXT:form_logic/Resources/Private/Language/Database.xlf'
+            editors:
+              1740652306:
+                identifier: 'dependencyScript'
+                templateName: 'Inspector-TextareaEditor'
+                label: 'formEditor.elements.Form.editor.dependencyScript.label'
+                propertyPath: 'renderingOptions.dependencyScript'

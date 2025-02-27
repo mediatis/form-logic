@@ -1,0 +1,9 @@
+# frontend configuration
+plugin.tx_form.settings.yamlConfigurations {
+  1740652306 = EXT:form_logic/Configuration/Yaml/FormSetup.yaml
+}
+
+# backend configuration
+module.tx_form.settings.yamlConfigurations {
+  1740652306 = EXT:form_logic/Configuration/Yaml/FormSetup.yaml
+}

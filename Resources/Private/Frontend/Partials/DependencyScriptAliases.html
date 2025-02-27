@@ -1,0 +1,4 @@
+<f:for as="page" each="{form.pages}">
+  <f:for as="element" each="{page.elementsRecursively}"><f:if condition="{element.properties.fluidAdditionalAttributes.name}">form.setAlias('{element.uniqueIdentifier}', '{element.properties.fluidAdditionalAttributes.name}');
+  </f:if></f:for>
+</f:for>
