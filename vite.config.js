@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
       emptyOutDir: false,
       rollupOptions: {
         input: {
-          'form-dependencies': './Resources/Private/JavaScript/Frontend/form-dependencies.js'
+          'form-logic': './Resources/Private/JavaScript/Frontend/form-logic.js'
         },
         output: {
           entryFileNames: `JavaScript/[name].min.js`,

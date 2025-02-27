@@ -1,2 +1,2 @@
 # form-logic
-TYPO3 form dependency script addon
+TYPO3 form logic addon

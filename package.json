@@ -1,7 +1,7 @@
 {
-  "name": "mediatis_cookiecontrol",
+  "name": "form_logic",
   "version": "2.0.1",
-  "description": "Typo3 CookieManager",
+  "description": "TYPO3 form logic addon",
   "homepage": "www.mediatis.de",
   "scripts": {
     "start": "vite build --watch --mode development",
