@@ -4,26 +4,26 @@ TYPO3:
       formManager:
         translationFiles:
           10: 'EXT:form/Resources/Private/Language/Database.xlf'
-          20: 'EXT:form_logic/Resources/Private/Language/Database.xlf'
+          30: 'EXT:form_logic/Resources/Private/Language/Database.xlf'
       prototypes:
         standard:
           formEngine:
             translationFiles:
               10: 'EXT:form/Resources/Private/Language/Database.xlf'
-              20: 'EXT:form_logic/Resources/Private/Language/Database.xlf'
+              30: 'EXT:form_logic/Resources/Private/Language/Database.xlf'
           formEditor:
             translationFiles:
               10: 'EXT:form/Resources/Private/Language/Database.xlf'
-              20: 'EXT:form_logic/Resources/Private/Language/Database.xlf'
+              30: 'EXT:form_logic/Resources/Private/Language/Database.xlf'
           formElementsDefinition:
             Form:
               renderingOptions:
                 templateRootPaths:
-                  100: 'EXT:form_logic/Resources/Private/Frontend/Templates/'
+                  200: 'EXT:form_logic/Resources/Private/Frontend/Templates/'
                 partialRootPaths:
-                  100: 'EXT:form_logic/Resources/Private/Frontend/Partials/'
+                  200: 'EXT:form_logic/Resources/Private/Frontend/Partials/'
                 layoutRootPaths:
-                  100: 'EXT:form_logic/Resources/Private/Frontend/Layouts/'
+                  200: 'EXT:form_logic/Resources/Private/Frontend/Layouts/'
               formEditor:
                 editors:
                   833:
