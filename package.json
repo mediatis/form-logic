@@ -19,10 +19,9 @@
     "eslint": "^9.21.0",
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
-    "vite": "^6.4.2"
+    "vite": "^6.4.3"
   },
   "dependencies": {
-    "js-cookie": "^3.0.5",
     "sass": "^1.85.1"
   },
   "eslintConfig": {
